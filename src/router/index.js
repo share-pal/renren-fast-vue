@@ -172,7 +172,7 @@ router.beforeEach((to, from, next) => {
           'parentId': 0,
           'parentName': null,
           'name': '平台管理',
-          'url': 'advertisement/index',
+          'url': 'platform/index',
           'perms': 'sys:config:list,sys:config:info,sys:config:save,sys:config:update,sys:config:delete',
           'type': 1,
           'icon': 'qiye',
@@ -185,7 +185,7 @@ router.beforeEach((to, from, next) => {
           'parentId': 0,
           'parentName': null,
           'name': '广告管理',
-          'url': 'Marketing/index',
+          'url': 'advertisement/index',
           'perms': 'sys:config:list,sys:config:info,sys:config:save,sys:config:update,sys:config:delete',
           'type': 1,
           'icon': 'qiye',
@@ -199,19 +199,6 @@ router.beforeEach((to, from, next) => {
           'parentName': null,
           'name': '营销管理',
           'url': 'marketing/index',
-          'perms': 'sys:config:list,sys:config:info,sys:config:save,sys:config:update,sys:config:delete',
-          'type': 1,
-          'icon': 'qiye',
-          'orderNum': 0,
-          'open': null,
-          'list': []
-        },
-        {
-          'menuId': 11,
-          'parentId': 0,
-          'parentName': null,
-          'name': '营销管理',
-          'url': 'knowledge/index',
           'perms': 'sys:config:list,sys:config:info,sys:config:save,sys:config:update,sys:config:delete',
           'type': 1,
           'icon': 'qiye',
@@ -271,7 +258,7 @@ router.beforeEach((to, from, next) => {
               'list': []
             },
             {
-              'menuId': 131,
+              'menuId': 132,
               'parentId': 13,
               'parentName': null,
               'name': '权限架构-部门',
@@ -297,7 +284,7 @@ router.beforeEach((to, from, next) => {
           'orderNum': 0,
           'open': null,
           'list': []
-        },
+        }
       ]
     }
     // http({

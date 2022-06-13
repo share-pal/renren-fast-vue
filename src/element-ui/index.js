@@ -75,9 +75,14 @@ import {
   Loading,
   MessageBox,
   Message,
-  Notification
+  Notification,
+  Descriptions,
+  DescriptionsItem,
+  Empty
 } from 'element-ui'
-
+Vue.use(Empty)
+Vue.use(Descriptions)
+Vue.use(DescriptionsItem)
 Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Autocomplete)
